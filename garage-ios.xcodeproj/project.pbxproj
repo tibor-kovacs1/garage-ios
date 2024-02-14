@@ -7,24 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D826DC562B712D0E005A6723 /* garage_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC552B712D0E005A6723 /* garage_iosApp.swift */; };
+		D826DC562B712D0E005A6723 /* GarageIosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC552B712D0E005A6723 /* GarageIosApp.swift */; };
 		D826DC582B712D0E005A6723 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC572B712D0E005A6723 /* ContentView.swift */; };
 		D826DC5A2B712D0F005A6723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D826DC592B712D0F005A6723 /* Assets.xcassets */; };
 		D826DC5E2B712D0F005A6723 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D826DC5D2B712D0F005A6723 /* Preview Assets.xcassets */; };
-		D826DC682B712D0F005A6723 /* garage_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC672B712D0F005A6723 /* garage_iosTests.swift */; };
-		D826DC722B712D0F005A6723 /* garage_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC712B712D0F005A6723 /* garage_iosUITests.swift */; };
-		D826DC742B712D0F005A6723 /* garage_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC732B712D0F005A6723 /* garage_iosUITestsLaunchTests.swift */; };
+		D826DC822B712E04005A6723 /* StrivacitySDK in Frameworks */ = {isa = PBXBuildFile; productRef = D826DC812B712E04005A6723 /* StrivacitySDK */; };
+		D826DC8A2B75069D005A6723 /* ParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC892B75069D005A6723 /* ParkingSpot.swift */; };
+		D826DC8C2B763ED7005A6723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC8B2B763ED7005A6723 /* AppDelegate.swift */; };
+		D826DC8E2B763F25005A6723 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC8D2B763F25005A6723 /* Controller.swift */; };
+		D826DC942B7A16F8005A6723 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC932B7A16F8005A6723 /* Login.swift */; };
+		D826DC962B7A1729005A6723 /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC952B7A1729005A6723 /* Logout.swift */; };
+		D826DC982B7A176D005A6723 /* GarageReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DC972B7A176D005A6723 /* GarageReservation.swift */; };
+		D826DCAF2B7CE3B4005A6723 /* garage_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DCAE2B7CE3B4005A6723 /* garage_iosTests.swift */; };
+		D826DCB62B7CE3D5005A6723 /* GarageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826DCB52B7CE3D5005A6723 /* GarageTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D826DC642B712D0F005A6723 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D826DC4A2B712D0E005A6723 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D826DC512B712D0E005A6723;
-			remoteInfo = "garage-ios";
-		};
-		D826DC6E2B712D0F005A6723 /* PBXContainerItemProxy */ = {
+		D826DCB02B7CE3B4005A6723 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D826DC4A2B712D0E005A6723 /* Project object */;
 			proxyType = 1;
@@ -35,16 +34,22 @@
 
 /* Begin PBXFileReference section */
 		D826DC522B712D0E005A6723 /* garage-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "garage-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D826DC552B712D0E005A6723 /* garage_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garage_iosApp.swift; sourceTree = "<group>"; };
+		D826DC552B712D0E005A6723 /* GarageIosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageIosApp.swift; sourceTree = "<group>"; };
 		D826DC572B712D0E005A6723 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D826DC592B712D0F005A6723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D826DC5B2B712D0F005A6723 /* garage_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = garage_ios.entitlements; sourceTree = "<group>"; };
 		D826DC5D2B712D0F005A6723 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D826DC632B712D0F005A6723 /* garage-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "garage-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D826DC672B712D0F005A6723 /* garage_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garage_iosTests.swift; sourceTree = "<group>"; };
-		D826DC6D2B712D0F005A6723 /* garage-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "garage-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D826DC712B712D0F005A6723 /* garage_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garage_iosUITests.swift; sourceTree = "<group>"; };
-		D826DC732B712D0F005A6723 /* garage_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garage_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D826DC892B75069D005A6723 /* ParkingSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpot.swift; sourceTree = "<group>"; };
+		D826DC8B2B763ED7005A6723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D826DC8D2B763F25005A6723 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		D826DC8F2B76437C005A6723 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		D826DC902B764E45005A6723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D826DC932B7A16F8005A6723 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		D826DC952B7A1729005A6723 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
+		D826DC972B7A176D005A6723 /* GarageReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageReservation.swift; sourceTree = "<group>"; };
+		D826DCAC2B7CE3B4005A6723 /* garage-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "garage-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D826DCAE2B7CE3B4005A6723 /* garage_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garage_iosTests.swift; sourceTree = "<group>"; };
+		D826DCB52B7CE3D5005A6723 /* GarageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +57,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D826DC822B712E04005A6723 /* StrivacitySDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D826DC602B712D0F005A6723 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D826DC6A2B712D0F005A6723 /* Frameworks */ = {
+		D826DCA92B7CE3B4005A6723 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,9 +74,9 @@
 		D826DC492B712D0E005A6723 = {
 			isa = PBXGroup;
 			children = (
+				D826DCA72B7CE358005A6723 /* garageTests */,
 				D826DC542B712D0E005A6723 /* garage-ios */,
-				D826DC662B712D0F005A6723 /* garage-iosTests */,
-				D826DC702B712D0F005A6723 /* garage-iosUITests */,
+				D826DCAD2B7CE3B4005A6723 /* garage-iosTests */,
 				D826DC532B712D0E005A6723 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				D826DC522B712D0E005A6723 /* garage-ios.app */,
-				D826DC632B712D0F005A6723 /* garage-iosTests.xctest */,
-				D826DC6D2B712D0F005A6723 /* garage-iosUITests.xctest */,
+				D826DCAC2B7CE3B4005A6723 /* garage-iosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,11 +93,16 @@
 		D826DC542B712D0E005A6723 /* garage-ios */ = {
 			isa = PBXGroup;
 			children = (
-				D826DC552B712D0E005A6723 /* garage_iosApp.swift */,
+				D826DC922B7A16E6005A6723 /* Views */,
+				D826DC902B764E45005A6723 /* Info.plist */,
+				D826DC552B712D0E005A6723 /* GarageIosApp.swift */,
 				D826DC572B712D0E005A6723 /* ContentView.swift */,
 				D826DC592B712D0F005A6723 /* Assets.xcassets */,
 				D826DC5B2B712D0F005A6723 /* garage_ios.entitlements */,
 				D826DC5C2B712D0F005A6723 /* Preview Content */,
+				D826DC8D2B763F25005A6723 /* Controller.swift */,
+				D826DC8B2B763ED7005A6723 /* AppDelegate.swift */,
+				D826DC8F2B76437C005A6723 /* Config.xcconfig */,
 			);
 			path = "garage-ios";
 			sourceTree = "<group>";
@@ -112,21 +115,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D826DC662B712D0F005A6723 /* garage-iosTests */ = {
+		D826DC922B7A16E6005A6723 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D826DC672B712D0F005A6723 /* garage_iosTests.swift */,
+				D826DC992B7A1787005A6723 /* Reservation */,
+				D826DC932B7A16F8005A6723 /* Login.swift */,
+				D826DC952B7A1729005A6723 /* Logout.swift */,
 			);
-			path = "garage-iosTests";
+			path = Views;
 			sourceTree = "<group>";
 		};
-		D826DC702B712D0F005A6723 /* garage-iosUITests */ = {
+		D826DC992B7A1787005A6723 /* Reservation */ = {
 			isa = PBXGroup;
 			children = (
-				D826DC712B712D0F005A6723 /* garage_iosUITests.swift */,
-				D826DC732B712D0F005A6723 /* garage_iosUITestsLaunchTests.swift */,
+				D826DC972B7A176D005A6723 /* GarageReservation.swift */,
+				D826DC892B75069D005A6723 /* ParkingSpot.swift */,
 			);
-			path = "garage-iosUITests";
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		D826DCA72B7CE358005A6723 /* garageTests */ = {
+			isa = PBXGroup;
+			children = (
+				D826DCB52B7CE3D5005A6723 /* GarageTests.swift */,
+			);
+			path = garageTests;
+			sourceTree = "<group>";
+		};
+		D826DCAD2B7CE3B4005A6723 /* garage-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D826DCAE2B7CE3B4005A6723 /* garage_iosTests.swift */,
+			);
+			path = "garage-iosTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,45 +166,30 @@
 			dependencies = (
 			);
 			name = "garage-ios";
+			packageProductDependencies = (
+				D826DC812B712E04005A6723 /* StrivacitySDK */,
+			);
 			productName = "garage-ios";
 			productReference = D826DC522B712D0E005A6723 /* garage-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D826DC622B712D0F005A6723 /* garage-iosTests */ = {
+		D826DCAB2B7CE3B4005A6723 /* garage-iosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D826DC7A2B712D0F005A6723 /* Build configuration list for PBXNativeTarget "garage-iosTests" */;
+			buildConfigurationList = D826DCB22B7CE3B4005A6723 /* Build configuration list for PBXNativeTarget "garage-iosTests" */;
 			buildPhases = (
-				D826DC5F2B712D0F005A6723 /* Sources */,
-				D826DC602B712D0F005A6723 /* Frameworks */,
-				D826DC612B712D0F005A6723 /* Resources */,
+				D826DCA82B7CE3B4005A6723 /* Sources */,
+				D826DCA92B7CE3B4005A6723 /* Frameworks */,
+				D826DCAA2B7CE3B4005A6723 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D826DC652B712D0F005A6723 /* PBXTargetDependency */,
+				D826DCB12B7CE3B4005A6723 /* PBXTargetDependency */,
 			);
 			name = "garage-iosTests";
 			productName = "garage-iosTests";
-			productReference = D826DC632B712D0F005A6723 /* garage-iosTests.xctest */;
+			productReference = D826DCAC2B7CE3B4005A6723 /* garage-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D826DC6C2B712D0F005A6723 /* garage-iosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D826DC7D2B712D0F005A6723 /* Build configuration list for PBXNativeTarget "garage-iosUITests" */;
-			buildPhases = (
-				D826DC692B712D0F005A6723 /* Sources */,
-				D826DC6A2B712D0F005A6723 /* Frameworks */,
-				D826DC6B2B712D0F005A6723 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D826DC6F2B712D0F005A6723 /* PBXTargetDependency */,
-			);
-			name = "garage-iosUITests";
-			productName = "garage-iosUITests";
-			productReference = D826DC6D2B712D0F005A6723 /* garage-iosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,11 +204,7 @@
 					D826DC512B712D0E005A6723 = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					D826DC622B712D0F005A6723 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = D826DC512B712D0E005A6723;
-					};
-					D826DC6C2B712D0F005A6723 = {
+					D826DCAB2B7CE3B4005A6723 = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = D826DC512B712D0E005A6723;
 					};
@@ -217,13 +219,15 @@
 				Base,
 			);
 			mainGroup = D826DC492B712D0E005A6723;
+			packageReferences = (
+				D826DC802B712E04005A6723 /* XCRemoteSwiftPackageReference "sdk-mobile-ios" */,
+			);
 			productRefGroup = D826DC532B712D0E005A6723 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D826DC512B712D0E005A6723 /* garage-ios */,
-				D826DC622B712D0F005A6723 /* garage-iosTests */,
-				D826DC6C2B712D0F005A6723 /* garage-iosUITests */,
+				D826DCAB2B7CE3B4005A6723 /* garage-iosTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,14 +242,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D826DC612B712D0F005A6723 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D826DC6B2B712D0F005A6723 /* Resources */ = {
+		D826DCAA2B7CE3B4005A6723 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,40 +256,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D826DC8E2B763F25005A6723 /* Controller.swift in Sources */,
+				D826DC8C2B763ED7005A6723 /* AppDelegate.swift in Sources */,
 				D826DC582B712D0E005A6723 /* ContentView.swift in Sources */,
-				D826DC562B712D0E005A6723 /* garage_iosApp.swift in Sources */,
+				D826DC982B7A176D005A6723 /* GarageReservation.swift in Sources */,
+				D826DC942B7A16F8005A6723 /* Login.swift in Sources */,
+				D826DC562B712D0E005A6723 /* GarageIosApp.swift in Sources */,
+				D826DC8A2B75069D005A6723 /* ParkingSpot.swift in Sources */,
+				D826DC962B7A1729005A6723 /* Logout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D826DC5F2B712D0F005A6723 /* Sources */ = {
+		D826DCA82B7CE3B4005A6723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D826DC682B712D0F005A6723 /* garage_iosTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D826DC692B712D0F005A6723 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D826DC722B712D0F005A6723 /* garage_iosUITests.swift in Sources */,
-				D826DC742B712D0F005A6723 /* garage_iosUITestsLaunchTests.swift in Sources */,
+				D826DCB62B7CE3D5005A6723 /* GarageTests.swift in Sources */,
+				D826DCAF2B7CE3B4005A6723 /* garage_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D826DC652B712D0F005A6723 /* PBXTargetDependency */ = {
+		D826DCB12B7CE3B4005A6723 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D826DC512B712D0E005A6723 /* garage-ios */;
-			targetProxy = D826DC642B712D0F005A6723 /* PBXContainerItemProxy */;
-		};
-		D826DC6F2B712D0F005A6723 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D826DC512B712D0E005A6723 /* garage-ios */;
-			targetProxy = D826DC6E2B712D0F005A6723 /* PBXContainerItemProxy */;
+			targetProxy = D826DCB02B7CE3B4005A6723 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -349,6 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,6 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -413,6 +405,7 @@
 		};
 		D826DC782B712D0F005A6723 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D826DC8F2B76437C005A6723 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,6 +415,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"garage-ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "garage-ios/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -449,6 +443,7 @@
 		};
 		D826DC792B712D0F005A6723 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D826DC8F2B76437C005A6723 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +453,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"garage-ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "garage-ios/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -483,21 +479,17 @@
 			};
 			name = Release;
 		};
-		D826DC7B2B712D0F005A6723 /* Debug */ = {
+		D826DCB32B7CE3B4005A6723 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "strivacity.garage-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,67 +497,22 @@
 			};
 			name = Debug;
 		};
-		D826DC7C2B712D0F005A6723 /* Release */ = {
+		D826DCB42B7CE3B4005A6723 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "strivacity.garage-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/garage-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/garage-ios";
-			};
-			name = Release;
-		};
-		D826DC7E2B712D0F005A6723 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "strivacity.garage-iosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "garage-ios";
-			};
-			name = Debug;
-		};
-		D826DC7F2B712D0F005A6723 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "strivacity.garage-iosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "garage-ios";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -590,25 +537,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D826DC7A2B712D0F005A6723 /* Build configuration list for PBXNativeTarget "garage-iosTests" */ = {
+		D826DCB22B7CE3B4005A6723 /* Build configuration list for PBXNativeTarget "garage-iosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D826DC7B2B712D0F005A6723 /* Debug */,
-				D826DC7C2B712D0F005A6723 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D826DC7D2B712D0F005A6723 /* Build configuration list for PBXNativeTarget "garage-iosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D826DC7E2B712D0F005A6723 /* Debug */,
-				D826DC7F2B712D0F005A6723 /* Release */,
+				D826DCB32B7CE3B4005A6723 /* Debug */,
+				D826DCB42B7CE3B4005A6723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D826DC802B712E04005A6723 /* XCRemoteSwiftPackageReference "sdk-mobile-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Strivacity/sdk-mobile-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D826DC812B712E04005A6723 /* StrivacitySDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D826DC802B712E04005A6723 /* XCRemoteSwiftPackageReference "sdk-mobile-ios" */;
+			productName = StrivacitySDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D826DC4A2B712D0E005A6723 /* Project object */;
 }
