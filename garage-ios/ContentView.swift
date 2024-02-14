@@ -6,19 +6,27 @@
 //
 
 import SwiftUI
+import StrivacitySDK
 
 struct ContentView: View {
+    @ObservedObject var controller: UIController
+    
+    init(controller: UIController) {
+        self.controller = controller
+        // if we didn't logout and restart the app, this will set 'isAuthenticated' property to true
+        controller.checkAuthenticated()
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if controller.isAuthenticated {
+            GarageReservation(controller: controller)
+            LogoutView(controller: controller)
+        } else {
+            LoginView(controller: controller)
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(controller: UIController(appDelegate: AppDelegate()))
 }
