@@ -13,8 +13,9 @@ struct ContentView: View {
     
     init(controller: UIController) {
         self.controller = controller
-        // if we didn't logout and restart the app, this will set 'isAuthenticated' property to true
+        // if we didn't logout and restart the app, this will set 'isAuthenticated' and 'claims' property
         controller.checkAuthenticated()
+        controller.setClaims()
     }
     
     var body: some View {
