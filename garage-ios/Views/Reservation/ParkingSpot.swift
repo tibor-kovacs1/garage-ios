@@ -20,35 +20,35 @@ struct ParkingSpot: View {
     }
     
     var body: some View {
-            ZStack {
-                Rectangle().fill(color)
-                Text(parkSpot)
-            }
-            .opacity(parkId == "" ? 0 : 1)
-            .onTapGesture {
-                changeColor()
-                reserveSpot()
-            }
+        ZStack {
+            Rectangle().fill(color)
+            Text(parkSpot)
+        }
+        .opacity(parkId == "" ? 0 : 1)
+        .onTapGesture {
+            color = changeColor()
+            parkSpot = reserveSpot()
+        }
     }
     
-    func changeColor() {
+    func changeColor() -> Color {
         if(color == Color.green) {
-            color = Color.red
+            return Color.red
         }
         else {
-            color = Color.green
+            return Color.green
         }
     }
     
-    func reserveSpot() {
+    func reserveSpot() -> String {
         if(fullName.isEmpty) {
-            return
+            return parkId
         }
             
         if(parkSpot.count == 1) {
-            parkSpot = parkId + " " + fullName
+           return  parkId + " " + fullName
         } else {
-            parkSpot = parkId
+           return  parkId
         }
     }
     

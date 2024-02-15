@@ -48,6 +48,7 @@
 		D826DC932B7A16F8005A6723 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D826DC952B7A1729005A6723 /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 		D826DC972B7A176D005A6723 /* GarageReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageReservation.swift; sourceTree = "<group>"; };
+		D84A10922B7D00F40009098A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		D826DC492B712D0E005A6723 = {
 			isa = PBXGroup;
 			children = (
+				D84A10922B7D00F40009098A /* README.md */,
 				D826DC542B712D0E005A6723 /* garage-ios */,
 				D82119472B7CFB97007C0886 /* garage-iosTests */,
 				D826DC532B712D0E005A6723 /* Products */,
