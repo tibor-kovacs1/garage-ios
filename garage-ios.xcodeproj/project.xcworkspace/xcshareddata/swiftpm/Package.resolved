@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "appauth-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/openid/AppAuth-iOS.git",
+      "state" : {
+        "revision" : "71cde449f13d453227e687458144bde372d30fc7",
+        "version" : "1.6.2"
+      }
+    },
+    {
+      "identity" : "sdk-mobile-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Strivacity/sdk-mobile-ios.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "32f941d8a8aa9e6fd2e509048c486c6f23df2463"
+      }
+    }
+  ],
+  "version" : 2
+}
